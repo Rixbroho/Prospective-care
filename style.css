@@ -1,0 +1,85 @@
+.info{
+    background-color: #082A4A;
+}
+
+.bg-white{
+    background-color: #FFFFFF;
+}
+
+section{
+    padding: 40px 0;
+}
+
+#hero-section{
+    background-image: url('Hero-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+}
+
+#hero-section::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(8, 42, 74, 100%);
+    z-index: -1;
+}
+
+.color{
+    color: #FFFFFF;
+}
+
+.bg-gray{
+    background-color: #EEF2F6;
+}
+
+.heading-color{
+ color: #082A4A;
+}
+
+.s-1{
+    background: linear-gradient(90deg, #5a154a 0%, #922278 100%);
+}
+
+.s-2{
+    background: linear-gradient(90deg, #a13172 0%, #c33e8b 100%);
+}
+
+.s-3{
+    background: linear-gradient(90deg, #e73056 0%, #e95038 100%);
+}
+
+.s-4{
+    background: linear-gradient(90deg, #f28a19 0%, #f9b107 100%);
+}
+
+.s-5{
+    background: linear-gradient(90deg, #77ac43 0%, #94ca5f 100%);
+}
+
+.s-6{
+    background: linear-gradient(90deg, #235683 0%, #048fa3 100%);
+}
+
+.s-7{
+    background: linear-gradient(90deg, #48b2bc 0%, #95d0d3 100%);
+}
+
+.s-8{
+    background: linear-gradient(90deg, #279a96 0%, #2eaea9 100%);
+}
+
+.box>h5::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60%;
+    border: 2px solid #2E82D0;
+    border-radius: 20px ;
+}
+
